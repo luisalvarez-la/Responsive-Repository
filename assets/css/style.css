@@ -1,10 +1,12 @@
+
+/*Setting up webpage*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
   }
-  
+  /* Setting up body*/
   body {
     background-color: #080808;
     color: #ffffff;
@@ -14,6 +16,7 @@
     align-items: center;
   }
   
+  /*Styling Header*/
   #header {
     width: 100%;
     height: 100vh;
@@ -48,14 +51,30 @@
 
           &::after {
             content: '';
-            width: 100%;
+            width: 0%;
             height: 3px;
             background-color: #4dc0f6;
             position: absolute;
             left: 0;
             bottom: -6px;
+            transition: 0.5s;
+
+            
+          }
+
+          &:hover::after {
+            width: 100%;
           }
         }
+      }
+    }
+
+    .header__title {
+      margin-top: 8%;
+      font-size: 30px;
+      &:nth-child(2) {
+        font-size: 60px;
+        margin-top: 20px;
       }
     }
   }
