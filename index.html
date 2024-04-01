@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Luis Alvarez Portfolio</title>
     <link rel="stylesheet" href=assets/css/style.css>
@@ -10,7 +11,8 @@
 
 <body>
 
-    <div id="header">
+    <!--Building header-->
+    <div class="header">
         <div class="header__container">
             <nav class="header__nav">
                 <img src="assets/img/logo.png" alt="Logo with my name" class="container__logo">
@@ -21,13 +23,83 @@
                     <li class="header__nav--item"><a href="#portfolio" class="nav--item__link">Portfolio</a></li>
                     <li class="header__nav--item"><a href="#contact" class="nav--item__link">Contact</a></li>
                 </ul>
+
             </nav>
             <div class="header__title">
-                <p>Full-Stack Developer</p>
-                <h1>Hello there, I'm Luis Alvarez</h1>
+                <div>
+                    <p>Full-Stack Developer</p>
+                    <p class="header__title--item">Hello, I'm Luis </p>
+                    <p class="header__title--item">Welcome to my Portfolio</p>
+                </div>
+
             </div>
         </div>
     </div>
+
+    <!--Building About me section-->
+    <section class="about">
+        <div class="about__container">
+            <div class="container__row">
+                <div class="row__col1"><img src="assets/img/about1.png"
+                        alt=" a men in front of a desktop Pc typing code" class="col1--img"></div>
+                <div class="row__col2">
+                    <h3 class="col2--subtitle">About Me</h3>
+                    <p>I'm thrilled to introduce myself as a passionate web developer with a burning enthusiasm for
+                        crafting
+                        dynamic and user-friendly online experiences. My journey into the world of web development began
+                        with a
+                        curiosity that quickly transformed into a relentless pursuit of mastery.
+                        My skills revolve around
+                        front-end technologies like HTML, CSS, and JavaScript, where I thrive in bringing designs to
+                        life and
+                        ensuring seamless interactivity.
+                        While I'm a junior in the field, my experience spans various personal small projects where I've
+                        developed responsive webpages and
+                        optimizing its performance. Through continuous learning and hands-on practice, I've honed my
+                        ability
+                        to tackle challenges head-on and deliver high-quality solutions that exceed expectations.
+                        What drives me
+                        in this field is the endless potential for innovation and creativity. I'm excited to
+                        collaborate, learn,
+                        and grow alongside seasoned professionals while making meaningful contributions to projects that
+                        leave a
+                        lasting impact.
+                        Let's connect and embark on this exciting journey together!
+                    </p>
+                    <div class="col2__skills">
+                        <p class="skill--link activate--link">Experience</p>
+                        <p class="skill--link">Skills</p>
+                        <p class="skill--link">Education</p>
+                    </div>
+                    <div class="col2__content">
+                        <ul class="content__list activate-link">
+                            <li><span>2023 - Current</span><p>Sales Engineer</p></li>
+                            <li><span>2022 - 2023</span><p>Information Associate</p></li>
+                            <li><span>2021 - 2021</span><p>Operation Manager</p></li>
+                        </ul>
+                        <div class="col2__content ">
+                            <ul class="content__list">
+                                <li><span>JavaScrpt:</span><p>Front-End & Back-End</p></li>
+                                <li><span>HTML</span><p>Front-End & Styling webpages</p></li>
+                                <li><span>CSS</span><p>Web Development</p></li>
+                            </ul>
+    
+                        </div>
+                        <div class="col2__content">
+                            <ul class="content__list">
+                                <li><span>2020 - 2021:</span><p>B.S. Information Systems</p></li>
+                                <li><span>2019 - 2020</span><p>High School Diploma</p></li>
+                                <li><span>2018 - 2019</span><p>Certified HVAC Designer </p></li>
+                            </ul>
+    
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
 
 
 
